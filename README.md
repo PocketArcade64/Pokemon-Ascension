@@ -41,3 +41,5 @@ Main Menu Layout
     * Crane Machine — launch the crane minigame (spend coins → unlock items/shinies)
     * Settings - music volume, sound effects volume, developer mode button where code “Ascension” opens up a menu with developer testing biuttons (like add coins, etc)
 Hierarchy logic: "Ascend" is the core loop and sits alone at the top since it's where coins are earned and the run actually happens. The four supporting buttons sit below as a row or stack, reflecting that they're all in service of Ascend — Collection is passive (view only), while Poke Drop Mode and Crane Machine are the active spend-coins-to-unlock loops, kept visually parallel since they're deliberately symmetrical in function (both convert coins into progression, just via different skill types).
+
+Important: create csv spreadsheets for the pokemon, and the items that explains what they do an all necessary associated information like stats that can be adjusted at a later time. 
